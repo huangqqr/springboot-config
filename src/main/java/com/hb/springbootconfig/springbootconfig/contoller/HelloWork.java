@@ -14,7 +14,9 @@ public class HelloWork {
     @RequestMapping("/hello")
     public String hello(){
 
-        return "Hello 阿博....";
+        StringBuffer sb = new StringBuffer();
+        sb.append("Hello 阿博....");
+        return sb.toString();
     }
 
 }
