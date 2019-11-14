@@ -17,9 +17,4 @@ public class HelloWork {
         return "Hello 阿博....";
     }
 
-    @RequestMapping("/way")
-    public String way(){
-
-        return "way 阿博....";
-    }
 }
