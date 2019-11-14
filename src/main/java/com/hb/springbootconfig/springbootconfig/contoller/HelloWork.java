@@ -18,5 +18,12 @@ public class HelloWork {
         sb.append("Hello 阿博....");
         return sb.toString();
     }
+    @RequestMapping("/way")
+    public String way(){
+
+        StringBuffer sb = new StringBuffer();
+        sb.append("way 阿博....");
+        return sb.toString();
+    }
 
 }
